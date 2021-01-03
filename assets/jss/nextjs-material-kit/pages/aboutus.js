@@ -7,7 +7,9 @@ const aboutusPageStyle = {
   },
   root: {
     backgroundColor: "#101010", 
-    width: '100%'
+    width: '100%',
+    minHeight: '100%',
+    position: 'absolute'
   },
   main: {
     backgroundColor: "#101010", 
@@ -60,7 +62,6 @@ const aboutusPageStyle = {
     },
     borderRadius: '10px',
     padding: "0px",
-    width: "360px",
     height: "320px"
   },
   subgrid: {

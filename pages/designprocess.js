@@ -25,7 +25,7 @@ export default function LandingPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
-    <div style={{backgroundColor: "#101010"}}>
+    <div className={classes.root}>
       <Header
         brand="TIMELINE"
         rightLinks={<HeaderLinks />}

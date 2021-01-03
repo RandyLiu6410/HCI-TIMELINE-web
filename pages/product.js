@@ -20,7 +20,7 @@ export default function Components(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
-    <div>
+    <div className={classes.root}>
       <Header
         brand="TIMELINE"
         rightLinks={<HeaderLinks />}

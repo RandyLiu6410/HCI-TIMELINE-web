@@ -14,7 +14,7 @@ export default function MemberGrid(props) {
   const classes = useStyles();
   const { children, className, image, name, degree, school, ...rest } = props;
   return (
-    <GridContainer direction="column" justify="flex-start" className={classes.subgrid}>
+    <GridContainer direction="column" justify="flex-start" className={classes.grid}>
         <GridItem xl={12} sm={12} xs={12} className={classes.subgrid}>
             <div style={{backgroundImage: `url(${image}`}} className={classes.image}/>
         </GridItem>

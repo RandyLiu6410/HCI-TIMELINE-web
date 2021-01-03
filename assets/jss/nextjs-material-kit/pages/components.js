@@ -2,6 +2,12 @@ import { container } from "assets/jss/nextjs-material-kit.js";
 
 const componentsStyle = {
   container,
+  root: {
+    backgroundColor: "#101010", 
+    width: '100%',
+    height: '100%',
+    position: 'absolute'
+  },
   brand: {
     color: "#FFFFFF",
     textAlign: "center",

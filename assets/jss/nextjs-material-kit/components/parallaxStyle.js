@@ -10,7 +10,8 @@ const parallaxStyle = theme => ({
     padding: "0",
     border: "0",
     display: "flex",
-    alignItems: "center"
+    alignItems: "center",
+    paddingTop: "100px"
   },
   filter: {
     "&:before": {

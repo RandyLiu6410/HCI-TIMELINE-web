@@ -5,6 +5,12 @@ const designprocessePageStyle = {
     color: "#FFFFFF",
     ...container
   },
+  root: {
+    backgroundColor: "#101010", 
+    width: '100%',
+    minHeight: '100%',
+    position: 'absolute'
+  },
   main: {
     marginTop: "10px",
     marginBottom: "10px",
@@ -57,7 +63,6 @@ const designprocessePageStyle = {
     },
     borderRadius: '10px',
     padding: "0px",
-    width: "360px",
     height: "320px"
   },
   subgrid: {

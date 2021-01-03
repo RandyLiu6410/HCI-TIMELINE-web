@@ -34,12 +34,12 @@ export default function ProcessGrid(props) {
                 <GridItem xl={12} sm={12} xs={12} style={{marginTop: "20px", marginBottom: "20px"}} className={classes.subgrid}>
                     <GridContainer direction="row">
                         <GridItem xl={3} sm={3} xs={3}>
-                            <a className={classes.link} href={slideUrl}>Slides</a>
+                            <a className={classes.link} href={slideUrl} target="_blank">Slides</a>
                         </GridItem>
                         {
                             readmeUrl ?
                             <GridItem xl={3} sm={3} xs={3}>
-                                <a className={classes.link} href={readmeUrl}>README</a>
+                                <a className={classes.link} href={readmeUrl} target="_blank">README</a>
                             </GridItem>
                             :
                             <div />

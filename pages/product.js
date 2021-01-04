@@ -54,6 +54,21 @@ export default function Components(props) {
 
       <Parallax>
         <div className={classes.container}>
+          <GridContainer direction="column" alignItems="center" justify="center">
+            <GridItem xl={12} sm={12} xs={12}>
+              <div className={classes.brand}>
+                <h2 className={classes.midtitle}>Watch Demo Video</h2>
+              </div>
+            </GridItem>
+            <GridItem xl={12} sm={12} xs={12}>
+              <iframe width="100%" height="500" src="https://www.youtube.com/embed/_IRZoScyeDo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </GridItem>
+          </GridContainer>
+        </div>
+      </Parallax>
+
+      <Parallax>
+        <div className={classes.container}>
           <GridContainer direction="row" alignItems="center" justify="center">
             <GridItem xl={6} sm={6} xs={12}>
               <div className={classes.brand}>
@@ -66,6 +81,21 @@ export default function Components(props) {
           </GridContainer>
         </div>
       </Parallax>
+
+      <Parallax image={require("assets/img/hci/web-bg-3.jpg")}>
+        <div className={classes.container}>
+          <div className={classes.contactus}>
+            <div className={classes.button}>
+              <div className={classes.brand}>
+                <a className={classes.subtitle} href="https://www.randy-liu.com/" target="_blank">
+                  Contact us
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Parallax>
+
       <Footer />
     </div>
   );

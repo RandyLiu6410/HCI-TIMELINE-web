@@ -17,20 +17,23 @@ const componentsStyle = {
     fontWeight: "600",
     display: "inline-block",
     position: "relative",
-    fontFamily: 'Audrey'
+    fontFamily: 'Audrey',
+    color: "#FFFFFF",
   },
   midtitle: {
     fontSize: "3rem",
     fontWeight: "600",
     display: "inline-block",
     position: "relative",
-    fontFamily: 'Noto Sans'
+    fontFamily: 'Noto Sans',
+    color: "#FFFFFF",
   },
   subtitle: {
     fontSize: "1.313rem",
     maxWidth: "510px",
     margin: "10px 0 0",
-    fontFamily: "Noto Serif"
+    fontFamily: "Noto Serif",
+    color: "#FFFFFF",
   },
   main: {
     background: "#FFFFFF",
@@ -53,10 +56,27 @@ const componentsStyle = {
     textAlign: "center"
   },
   image: {
-    width: '100%'
+    width: '100%',
   },
   download: {
     backgroundColor: "#010101"
+  },
+  contactus: {
+    height: 300,
+    flexDirection: 'column',
+    alignSelf: 'center',
+    alignContent: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    display: 'flex'
+  },
+  button: {
+    width: 200,
+    height: 60,
+    backgroundColor: '#101010',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    display: 'flex'
   }
 };
 

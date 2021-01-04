@@ -17,7 +17,7 @@ export default function SectionFeature() {
         <div className={classes.container}>
         <GridContainer direction="row" alignItems="center" justify="center">
             <GridItem xl={6} sm={6} xs={12}>
-              <img src={require("assets/img/hci/banner-element@4x.png")} style={styles.image}/>
+              <img src={require("assets/img/hci/product_1_tag.png")} style={styles.image}/>
             </GridItem>
             <GridItem xl={6} sm={6} xs={12}>
               <div className={classes.brand}>
@@ -42,12 +42,12 @@ export default function SectionFeature() {
               </div>
             </GridItem>
             <GridItem xl={6} sm={6} xs={12}>
-              <img src={require("assets/img/hci/banner-element@4x.png")} style={styles.image}/>
+              <img src={require("assets/img/hci/product_2_context.png")} style={styles.image}/>
             </GridItem>
           </GridContainer>
           <GridContainer direction="row" alignItems="center" justify="center">
             <GridItem xl={6} sm={6} xs={12}>
-              <img src={require("assets/img/hci/banner-element@4x.png")} style={styles.image}/>
+              <img src={require("assets/img/hci/product_3_followup.png")} style={styles.image}/>
             </GridItem>
             <GridItem xl={6} sm={6} xs={12}>
               <div className={classes.brand}>

@@ -1,7 +1,11 @@
 import { container } from "assets/jss/nextjs-material-kit.js";
 
 const featureStyle = {
-    container,
+    container: {
+      marginTop: "20px",
+      marginBottom: "20px",
+      ...container
+    },
     brand: {
       color: "#FFFFFF",
       textAlign: "left",
@@ -27,7 +31,7 @@ const featureStyle = {
       fontFamily: 'Noto Sans'
     },
     image: {
-      width: '100%'
+      width: '80%'
     }
   };
   

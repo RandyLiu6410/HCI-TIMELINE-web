@@ -22,9 +22,9 @@ class MyDocument extends Document {
 
           <meta property="og:title" content="TIMELINE | 2020F NTU Intro to HCI Course"/>
           <meta property="og:url" content="https://hci-timeline.vercel.app/"></meta>
-          <meta name="image" content={require("assets/img/hci/timeline-web-logo.png")}></meta>
-          <meta property="og:image" content={require("assets/img/hci/timeline-web-logo.png")}></meta>
-          <meta itemProp="image" content={require("assets/img/hci/timeline-web-logo.png")}></meta>
+          <meta name="image" content="https://i.imgur.com/PMUPPbc.png"></meta>
+          <meta property="og:image" content="https://i.imgur.com/PMUPPbc.png"></meta>
+          <meta itemProp="image" content="https://i.imgur.com/PMUPPbc.png"></meta>
           <meta property="og:type" content="website"></meta>
 
           {/* Fonts and icons */}

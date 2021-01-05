@@ -32,6 +32,10 @@ const featureStyle = {
     },
     image: {
       width: '80%'
+    },
+    grid: {
+      marginTop: 20,
+      marginBottom: 20
     }
   };
   

@@ -76,7 +76,9 @@ export default function Components(props) {
               </div>
             </GridItem>
             <GridItem xl={6} sm={6} xs={12}>
-              <img src={require("assets/img/hci/timeline-qr-code.png")} style={{width: '50%'}}/>
+              <div className={classes.brand}>
+                <img src={require("assets/img/hci/timeline-qr-code.png")} style={{width: '50%'}}/>
+              </div>
             </GridItem>
           </GridContainer>
         </div>

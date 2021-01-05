@@ -15,7 +15,7 @@ export default function SectionFeature() {
   return (
     <Parallax image={require("assets/img/hci/web-bg-2.jpg")}>
         <div className={classes.container}>
-        <GridContainer direction="row" alignItems="center" justify="center">
+        <GridContainer direction="row" alignItems="center" justify="center" className={classes.grid}>
             <GridItem xl={6} sm={6} xs={12}>
               <img src={require("assets/img/hci/product_1_tag.png")} style={styles.image}/>
             </GridItem>
@@ -31,7 +31,7 @@ export default function SectionFeature() {
               </div>
             </GridItem>
           </GridContainer>
-          <GridContainer direction="row" alignItems="center" justify="center">
+          <GridContainer direction="row" alignItems="center" justify="center" className={classes.grid}>
             <GridItem xl={6} sm={6} xs={12}>
               <div className={classes.brand}>
                 <h2 className={classes.midtitle}>Track the Follow-ups</h2>
@@ -44,7 +44,7 @@ export default function SectionFeature() {
               <img src={require("assets/img/hci/product_2_context.png")} style={styles.image}/>
             </GridItem>
           </GridContainer>
-          <GridContainer direction="row" alignItems="center" justify="center">
+          <GridContainer direction="row" alignItems="center" justify="center" className={classes.grid}>
             <GridItem xl={6} sm={6} xs={12}>
               <img src={require("assets/img/hci/product_3_followup.png")} style={styles.image}/>
             </GridItem>

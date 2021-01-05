@@ -12,7 +12,7 @@ const useStyles = makeStyles(styles);
 
 export default function ProcessGrid(props) {
   const classes = useStyles();
-  const { children, className, no, name, image, slideUrl, readmeUrl, ...rest } = props;
+  const { children, className, no, name, image, links, ...rest } = props;
   return (
     <GridContainer direction="row" justify="space-between" className={classes.grid}>
         <GridItem xl={2} sm={2} xs={2}></GridItem>
@@ -33,16 +33,12 @@ export default function ProcessGrid(props) {
                 </GridItem>
                 <GridItem xl={12} sm={12} xs={12} style={{marginTop: "20px", marginBottom: "20px"}} className={classes.subgrid}>
                     <GridContainer direction="row">
-                        <GridItem xl={3} sm={3} xs={3}>
-                            <a className={classes.link} href={slideUrl} target="_blank">Slides</a>
-                        </GridItem>
                         {
-                            readmeUrl ?
-                            <GridItem xl={3} sm={3} xs={3}>
-                                <a className={classes.link} href={readmeUrl} target="_blank">README</a>
-                            </GridItem>
-                            :
-                            <div />
+                            links.map(link => {
+                                return <GridItem xl={3} sm={3} xs={3}>
+                                    <a className={classes.link} href={link.url} target="_blank">{link.name}</a>
+                                </GridItem>
+                            })
                         }
                     </GridContainer>
                 </GridItem>
@@ -62,6 +58,5 @@ ProcessGrid.propTypes = {
   no: PropTypes.number,
   name: PropTypes.string,
   image: PropTypes.any,
-  slideUrl: PropTypes.string,
-  readmeUrl: PropTypes.string,
+  links: PropTypes.array,
 };

@@ -23,9 +23,10 @@ export default function SectionFeature() {
               <div className={classes.brand}>
                 <h2 className={classes.midtitle}>Tag Systems</h2>
                 <h3 className={classes.subtitle}>
-                  Auto-generated tags for classification of news, or create tag on your own.
-
-                  Reading News in an more organized way !
+                Auto-generated news tags help to classify news and allow you to read news in an organized way.
+                </h3>
+                <h3 className={classes.subtitle}>
+                There is also the option to create your own news tags!
                 </h3>
               </div>
             </GridItem>
@@ -35,9 +36,7 @@ export default function SectionFeature() {
               <div className={classes.brand}>
                 <h2 className={classes.midtitle}>Track the Follow-ups</h2>
                 <h3 className={classes.subtitle}>
-                  TIMELINE shows the latest news under each tag.
-
-                  Never miss the follow-ups of the issue that you have cared about.
+                TIMELINE auto-generates a timeline under each news tag.
                 </h3>
               </div>
             </GridItem>
@@ -53,9 +52,10 @@ export default function SectionFeature() {
               <div className={classes.brand}>
                 <h2 className={classes.midtitle}>Get the Whole Context</h2>
                 <h3 className={classes.subtitle}>
-                  TIMELINE provides you an automatically generated timeline under each tag.
-
-                  Get the context more efficiently than ever.
+                TIMELINE shows you the latest unread news under each timeline.
+                </h3>
+                <h3 className={classes.subtitle}>
+                Never miss the follow-ups on the topics you care about!
                 </h3>
               </div>
             </GridItem>

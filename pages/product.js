@@ -61,7 +61,7 @@ export default function Components(props) {
               </div>
             </GridItem>
             <GridItem xl={12} sm={12} xs={12}>
-              <iframe width="100%" height="500" src="https://www.youtube.com/embed/_IRZoScyeDo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="100%" height="500" src="https://www.youtube.com/embed/Atosq9Qs7_8" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
             </GridItem>
           </GridContainer>
         </div>
@@ -76,7 +76,7 @@ export default function Components(props) {
               </div>
             </GridItem>
             <GridItem xl={6} sm={6} xs={12}>
-              <img src={require("assets/img/hci/banner-element@4x.png")} style={styles.image}/>
+              <img src={require("assets/img/hci/timeline-qr-code.png")} style={{width: '50%'}}/>
             </GridItem>
           </GridContainer>
         </div>

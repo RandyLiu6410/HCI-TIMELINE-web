@@ -18,13 +18,13 @@ export default function MemberGrid(props) {
         <GridItem xl={12} sm={12} xs={12} className={classes.subgrid}>
             <div style={{backgroundImage: `url(${image}`}} className={classes.image}/>
         </GridItem>
-        <GridItem xl={12} sm={12} xs={12} className={classes.subgrid}>
+        <GridItem xl={12} sm={12} xs={12} className={classes.text}>
             <h2 className={classes.subtitle}>{name}</h2>
         </GridItem>
-        <GridItem xl={12} sm={12} xs={12} className={classes.subgrid}>
+        <GridItem xl={12} sm={12} xs={12} className={classes.text}>
             <h2 className={classes.subtitle}>{degree}</h2>
         </GridItem>
-        <GridItem xl={12} sm={12} xs={12} className={classes.subgrid}>
+        <GridItem xl={12} sm={12} xs={12} className={classes.text}>
             <h2 className={classes.subtitle}>{school}</h2>
         </GridItem>
     </GridContainer>

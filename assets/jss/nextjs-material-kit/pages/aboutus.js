@@ -65,7 +65,10 @@ const aboutusPageStyle = {
     height: "320px"
   },
   subgrid: {
-    padding: "0px"
+    padding: '0px'
+  },
+  text: {
+    paddingLeft: '10px'
   }
 };
 

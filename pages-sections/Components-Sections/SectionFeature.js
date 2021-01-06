@@ -34,7 +34,7 @@ export default function SectionFeature() {
           <GridContainer direction="row" alignItems="center" justify="center" className={classes.grid}>
             <GridItem xl={6} sm={6} xs={12}>
               <div className={classes.brand}>
-                <h2 className={classes.midtitle}>Track the Follow-ups</h2>
+                <h2 className={classes.midtitle}>Get the Whole Context</h2>
                 <h3 className={classes.subtitle}>
                 TIMELINE auto-generates a timeline under each news tag.
                 </h3>
@@ -50,7 +50,7 @@ export default function SectionFeature() {
             </GridItem>
             <GridItem xl={6} sm={6} xs={12}>
               <div className={classes.brand}>
-                <h2 className={classes.midtitle}>Get the Whole Context</h2>
+                <h2 className={classes.midtitle}>Track the Follow-ups</h2>
                 <h3 className={classes.subtitle}>
                 TIMELINE shows you the latest unread news under each timeline.
                 </h3>

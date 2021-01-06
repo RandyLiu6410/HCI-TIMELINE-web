@@ -21,7 +21,8 @@ const featureStyle = {
       fontWeight: "400",
       display: "inline-block",
       position: "relative",
-      fontFamily: "Noto Serif"
+      fontFamily: 'Noto Sans',
+      fontWeight: 'bold'
     },
     subtitle: {
       fontSize: "1.313rem",
